@@ -79,8 +79,12 @@ header div div {
 
 header div div div {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
+}
+
+img[alt="dot"] {
+  transform: translateY(-2.5px);
 }
 
 form {
@@ -279,16 +283,17 @@ form textarea:focus {
   gap: 20px;
 }
 
-#portfolio-nav button:first-of-type {
+#portfolio-nav button.selected {
   width: 140px;
   height: 44px;
   border-radius: 7px;
   color: #ffffff;
   background-color: #c25237;
   padding: 10px 15px 10px 15px;
+  transition: all 0.1s ease;
 }
 
-#portfolio-nav button:first-of-type:hover {
+#portfolio-nav button.selected:hover {
   background-color: #b14a30;
 }
 
@@ -341,7 +346,7 @@ form textarea:focus {
   background-color: #faf4ef;
   height: 700px;
   width: 100vw;
-  padding: 100px;
+  padding: 115px;
   display: flex;
 }
 
@@ -353,7 +358,7 @@ form textarea:focus {
   gap: 20px;
   width: 60vw;
   height: 100vh;
-  margin-left: 630px;
+  margin-left: 740px;
   margin-top: -202px;
   position: absolute;
   inset: 0;
@@ -378,7 +383,7 @@ form textarea:focus {
 }
 
 #hiw-image {
-  width: 400px;
+  width: 400px
 }
 
 #hiw-content img {
@@ -387,7 +392,7 @@ form textarea:focus {
 }
 
 #hiw-content {
-  margin-left: 190px;
+  margin-left: 290px;
   display: flex;
 }
 
@@ -417,7 +422,7 @@ form textarea:focus {
   flex-direction: column;
   height: 544px;
   width: 100vw;
-  padding: 100px;
+  padding: 110px;
   position: relative;
 }
 
@@ -471,6 +476,7 @@ form textarea:focus {
 }
 #our-services a:hover {
   transform: translateX(20px);
+  color: #b14a30;
 }
 
 
