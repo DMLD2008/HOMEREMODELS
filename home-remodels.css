@@ -254,8 +254,6 @@ form textarea:focus {
   font-size: 24px;
 }
 
-
-
 .line {
   height: 0px;
   border: 0.5px solid black;
@@ -269,7 +267,6 @@ form textarea:focus {
   z-index: 1;
   padding: 115px;
   position: relative;
-
 }
 
 #portfolio > p:first-of-type {
@@ -383,7 +380,7 @@ form textarea:focus {
 }
 
 #hiw-image {
-  width: 400px
+  width: 400px;
 }
 
 #hiw-content img {
@@ -479,8 +476,6 @@ form textarea:focus {
   color: #b14a30;
 }
 
-
-
 #our-services div div > img:first-of-type {
   width: 58px;
   margin-bottom: 10px;
@@ -574,6 +569,8 @@ footer p:last-of-type {
 footer img {
   margin-right: 10px;
 }
+
+
 
 @media screen and (max-width: 730px) {
   html,
