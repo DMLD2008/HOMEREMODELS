@@ -472,7 +472,6 @@ form textarea:focus {
   transition: all 0.2s ease;
 }
 #our-services a:hover {
-  transform: translateX(20px);
   color: #b14a30;
 }
 
@@ -685,7 +684,7 @@ footer img {
     margin-left: 0px;
     margin-bottom: 0px;
     position: relative;
-    top: -450px; /* moves it up */
+    top: -500px; /* moves it up */
     z-index: 99999; /* ensures it's visible above grid */
     display: flex;
     flex-direction: column;
